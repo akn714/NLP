@@ -1,3 +1,5 @@
+# Day 1
+
 ![Image](nlp.png)
 
 ## Step 1: Text Preprocessing

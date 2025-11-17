@@ -1,4 +1,4 @@
-# NLP for ML and DL
+# Day 2
 
 ## Text preprocessing
 1. OHE (One Hot Encoding)
@@ -68,6 +68,12 @@ fluffy.: [0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]
 |                        | 4. Semantic meaning between words is not captured                                       |
 ### 2. Bag of Words
 
+**Procedure:**
+Step 1: Remove unnecessary words using stopwords
+Step 2: Get the frequencies of all the remaining from the corpus
+Step 3: Make a sparce matrix as shown in the 2nd table below
+
+**Example:**
 D1 -> He is a good boy -> good boy
 D2 -> She is a good girl -> good girl
 D3 -> Boy and Girl are good -> boy girl good
@@ -78,6 +84,8 @@ D3 -> Boy and Girl are good -> boy girl good
 | good       | 3         |
 | girl       | 2         |
 | boy        | 2         |
+
+*below table is the final output of bag of words
 
 |       | f1   | f2   | f3  | O/P |
 | ----- | ---- | ---- | --- | --- |
