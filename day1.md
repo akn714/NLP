@@ -1,6 +1,6 @@
 # Day 1
 
-![Image](nlp.png)
+![Image](images/nlp.png)
 
 ## Step 1: Text Preprocessing
 
