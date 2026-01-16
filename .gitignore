@@ -1,2 +1,4 @@
 IMDB Dataset.csv
 WELFake_Dataset.csv
+venv/
+__pycache__/
